@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>SMART TẾT – Gợi ý chi tiêu Tết</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎉 Ứng Dụng Kế Hoạch Chi Tiêu Tết</h1>
+        <p class="subtitle">Lập kế hoạch chi tiêu thông minh – tiết kiệm – hợp lý cho gia đình</p>
+
+        <div class="input-box">
+            <label>💰 Nhập ngân sách Tết của bạn:</label>
+            <input id="budget" type="number" placeholder="VD: 5000000">
+            <button onclick="calculatePlan()">Tạo kế hoạch chi tiêu</button>
+        </div>
+
+        <h2>Kế hoạch chi tiêu gợi ý</h2>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
